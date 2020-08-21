@@ -134,15 +134,15 @@
       transform: translate(-50%,-50%);
       width: 756px;
       height: 60%;
-      background-color: #a88;
       .newletterText {
         width: 756px;
         height: 70px;
+        box-sizing: border-box;
+        padding: 8px 0;
         .l-text {
           float: left;
-          width: 360px;
+          width: 378px;
           height: 100%;
-          // background-color: #4ff;
           p {
             font-size: 30px;
             color: #fff;
@@ -151,16 +151,87 @@
         }
         .r-text {
           float: right;
-          width: 396px;
+          width: 378px;
           height: 100%;
-          // background-color: #40f;
+          line-height: 22px;
           p {
             font-size: 16px;
             color: #adadad;
-            
           }
         }
       }//newletterText
+      form {
+        position: relative;
+        margin-top: 2px;
+        width: 100%;
+        height: 48px;
+        padding: 17px 0;
+        fieldset {
+          width: 100%;
+          height: 100%;
+          #useEmail {
+            width: 100%;
+            height: 48px;
+            border-top: none;
+            border-left: none;
+            border-right: none;
+            border-bottom: solid 1px #adadad;
+            background-color: #333;
+            font-size: 20px;
+            color: #adadad;
+          }//useEmail
+          button {
+            position: absolute;
+            width: auto;
+            height: 40px;
+            top: 22px;
+            // left: 100px;
+            right: -5px;
+            // bottom: 0;
+            border: none;
+            font-size: 20px;
+            color: #adadad;
+          }//button
+        }//fieldset
+      }//form
+
+      .subscribe {
+        position: relative;
+        margin-top: 15px;
+        width: 100%;
+        height: auto;
+
+        input[type="checkbox"] {
+          // position: absolute;
+          // width: 1px; 
+          // height: 1px; 
+          // padding: 0; 
+          // margin: -1px; 
+          // overflow: hidden; 
+          // clip:rect(0,0,0,0); 
+          // border: 0
+          display: none;
+        }
+
+        input[type="checkbox"] + label { 
+          width:17px; 
+          height: 17px; 
+          background: #eee; cursor: pointer; border-radius: 0px;float: left;
+        }
+        input[type="checkbox"]:checked + label {
+          background:url(../../../../image/checkbox_v2.png) #fa3062 no-repeat center/10px 10px;
+        }
+        input[type="checkbox"] + label span {
+          position: absolute; 
+          left: 25px; 
+          display: block; 
+          color: #adadad; 
+          line-height: 18px; 
+          font-size: 15px;
+        }
+
+
+      }//subscribe
     }//newletterWrapper
   }//footerNewletter
 

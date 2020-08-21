@@ -38,17 +38,35 @@
 
 #footBox .footerNewletter { position: relative; width: 100%; height: 450px; background-color: #333; }
 
-#footBox .footerNewletter .newletterWrapper { position: absolute; top: 50%; left: 50%; transform: translate(-50%, -50%); width: 756px; height: 60%; background-color: #a88; }
+#footBox .footerNewletter .newletterWrapper { position: absolute; top: 50%; left: 50%; transform: translate(-50%, -50%); width: 756px; height: 60%; }
 
-#footBox .footerNewletter .newletterWrapper .newletterText { width: 756px; height: 70px; }
+#footBox .footerNewletter .newletterWrapper .newletterText { width: 756px; height: 70px; box-sizing: border-box; padding: 8px 0; }
 
-#footBox .footerNewletter .newletterWrapper .newletterText .l-text { float: left; width: 360px; height: 100%; }
+#footBox .footerNewletter .newletterWrapper .newletterText .l-text { float: left; width: 378px; height: 100%; }
 
 #footBox .footerNewletter .newletterWrapper .newletterText .l-text p { font-size: 30px; color: #fff; text-align: center; }
 
-#footBox .footerNewletter .newletterWrapper .newletterText .r-text { float: right; width: 396px; height: 100%; }
+#footBox .footerNewletter .newletterWrapper .newletterText .r-text { float: right; width: 378px; height: 100%; line-height: 22px; }
 
 #footBox .footerNewletter .newletterWrapper .newletterText .r-text p { font-size: 16px; color: #adadad; }
+
+#footBox .footerNewletter .newletterWrapper form { position: relative; margin-top: 2px; width: 100%; height: 48px; padding: 17px 0; }
+
+#footBox .footerNewletter .newletterWrapper form fieldset { width: 100%; height: 100%; }
+
+#footBox .footerNewletter .newletterWrapper form fieldset #useEmail { width: 100%; height: 48px; border-top: none; border-left: none; border-right: none; border-bottom: solid 1px #adadad; background-color: #333; font-size: 20px; color: #adadad; }
+
+#footBox .footerNewletter .newletterWrapper form fieldset button { position: absolute; width: auto; height: 40px; top: 22px; right: -5px; border: none; font-size: 20px; color: #adadad; }
+
+#footBox .footerNewletter .newletterWrapper .subscribe { position: relative; margin-top: 15px; width: 100%; height: auto; }
+
+#footBox .footerNewletter .newletterWrapper .subscribe input[type="checkbox"] { display: none; }
+
+#footBox .footerNewletter .newletterWrapper .subscribe input[type="checkbox"] + label { width: 17px; height: 17px; background: #eee; cursor: pointer; border-radius: 0px; float: left; }
+
+#footBox .footerNewletter .newletterWrapper .subscribe input[type="checkbox"]:checked + label { background: url(../../../../image/checkbox_v2.png) #fa3062 no-repeat center/10px 10px; }
+
+#footBox .footerNewletter .newletterWrapper .subscribe input[type="checkbox"] + label span { position: absolute; left: 25px; display: block; color: #adadad; line-height: 18px; font-size: 15px; }
 
 #footBox .footerPrivacy { width: 100%; height: 177px; background-color: #77a; }
 
