@@ -5,37 +5,50 @@
   width: 100%;
   height: 51px;
   background-color: #000;
-  .prompSlide {
-    width: 100%;
+  .promoSlide {
+    width: 100%;  //200%????????
     height: 100%;
     .promoSlide-01 {
       width: 100%;
       height: 100%;
-      p {
-        color: #fff;
-        font-weight: bold;
-        text-align: center;
-        line-height: 51px;
-        font-size: 15px;
-      }//p
     }//promoSlide-01
-  }//prompSlide
+
+    .promoSlide-02 {
+      width: 100%;
+      height: 100%;
+    }//promoSlide-02
+
+    p {
+      color: #fff;
+      font-weight: bold;
+      text-align: center;
+      line-height: 51px;
+      font-size: 15px;
+      letter-spacing: 0.2px;
+      font-style: bold;
+      font-family:"Klein Web 67 Medium Cond"
+    }//p
+  }//promoSlide
 }//promotion
 
 #headBox {
-  position: fixed;
-  z-index: 1;
+  position: relative;
   width: 100%; 
   height: 70px; 
   background-color: #fff;
 
+  &.action {
+    position: fixed;
+    top: 0;
+  }
+
   .headerWrapper {
     position: relative;
-    width: 1480px;
+    width: auto;
     height: 100%;
     padding: 17px 20px 18px 20px;
     box-sizing: border-box;
-    margin: auto;
+    margin: 0 90px;
 
     h1 {
       float: left;
@@ -46,7 +59,7 @@
         width: 100%;
         height: auto;
         img {
-          width: 101%;
+          width: 100%;
           height: auto;
         }//img
       }//a
@@ -57,7 +70,7 @@
       left: 50%;
       top: 50%;
       transform: translate(-50%,-50%);
-      width: 800px;
+      width: 600px;
       height: 21px;
       background-color: #fff;
       ul {
@@ -65,30 +78,28 @@
         height: 100%;
         li {
           float: left;
-          width: 53px;
-          height: 100%;
-          margin-left: 13px;
-          &:first-child {margin-left: 130px;}
+          margin-left: 32px;
+          font-size: 13px;
+          color: #404040;
+          text-align: center;
+          font-family:"Klein Web 67 Medium Cond";
+          line-height: 25px;
+          &:first-child {margin-left: 30px; color: #ff0000;}
           a {
             display: block;
-            font-size: 13px;
-            color: #404040;
-            text-align: center;
-            line-height: 30px;
-            font-weight: 500;
             width: 100%;
             height: 100%;
+            color: inherit;
           }
         }//li
       }//ul
     }//nav
 
     .headerIcon {
-      position: absolute;
-      top: 0;
-      right: 0;
+      float: right;
       width: 400px;
       height: 100%;
+      // margin-right: 180px;
       ul {
         width: 100%;
         height: 100%;
@@ -113,15 +124,159 @@
   }//headerWrapper
 }//headBox
 
+#mainBox {
+  width: 100%;
+  height: 40vw;
+
+  .mainImg {
+    float: left;
+    width: 65%; 
+    height: 100%; 
+    img {
+      width: 100%;
+    }
+  }//mainImg
+  
+  .mainText {
+    float: left;
+    width: 35%;
+    height: 100%;
+
+    .textWrapper {
+      width: 90%;
+      height: 80%;
+      margin-left: 7.6%;
+      margin-top: 5.8%;
+      text-align: center;
+
+      img {
+        margin-top: 20%;
+        width: 33.3%;
+        height: auto;
+        margin-bottom: 5.5%;
+      }
+
+      p {
+        font-size: 48px;
+        text-transform: uppercase;
+        font-family: "Klein Web 55 Regular";
+        font-weight: 700;
+        color: #8b1013;
+
+        &:nth-child(3){
+          color: #000;
+          font-size: 47px;
+          margin-top: -14px;
+          margin-bottom: 4.5px;
+        }
+        &:nth-child(4){
+          font-family: "Klein Web 65 Medium";
+          font-size: 17px;
+          font-weight: normal;
+          color: #000;
+        }
+      }
+
+      .btn {
+        margin: auto;
+        margin-top: 30px;
+        width: 423px;
+        height: 58px;
+        
+        .left {
+          float: left;
+          width: 200px;
+          height: 100%;
+          margin-right: 23px;
+          border: 1px solid #000;
+          box-sizing: border-box;
+          cursor: pointer;
+          color: #000;
+        }
+        .right {
+          float: right; 
+          width: 200px;
+          height: 100%;
+          border: 1px solid #000;
+          box-sizing: border-box;
+          cursor: pointer;
+          color: #000;
+        }
+
+        a {
+          display: block;
+          font-family: "Klein Web 55 Regular";
+          font-size: 18px;
+          line-height: 58px;
+        }//a
+      }//btn
+    }//textWrapper
+  }//mainText
+}//mainBox
+
 #container {
+  // position: relative;
   width: 100%; 
-  height: 300vw; 
-  background-color: #8aa;
+  height: 248.8vw; 
+  // background-color: #8aa;
+
+
+  .block {
+    width: 100%;
+    height: 15%;
+
+    .prodWrapper {
+      max-width: 1580px;
+      height: 632px;
+      margin: auto;
+      margin-bottom: 50px;
+      padding: 0 50px;
+      box-sizing: border-box;
+      background-color: #f29;
+
+      .prodBN-left {
+        float: left;
+        width: 710px;
+        height: 632px;
+        margin-left: 20px;
+        margin-right: 20px;
+        background-color: #8a9;
+      }
+      .prodBN-right {
+        float: left;
+        width: 710px;
+        height: 632px;
+        margin-right: 20px;
+        background-color: #890;
+      }
+    }//prodWrapper
+  }//productBox
+
+  .collectionBox {
+    width: 100%;
+    height: 33.5%;
+    background-color: #df8;
+  }
+
+  .bannerBox {
+    width: 100%;
+    height: 13.9%;
+    background-color: #d28;
+  }
+
+  .offBox {
+    width: 100%;
+    height: 18%;
+    background-color: #dd8;
+  }
 }//container
 
 #footBox {
+  // position: sticky;
   width: 100%; 
-  height: 1300px; 
+  height: 1300px;
+  // margin-top: -52px;
+  // margin-bottom: 30px;
 
   .footerNewletter {
     position: relative;
@@ -148,6 +303,7 @@
             font-size: 30px;
             color: #fff;
             text-align: center;
+            font-family:"Klein Web 67 Medium Cond";
           }
         }
         .r-text {
@@ -158,6 +314,7 @@
           p {
             font-size: 16px;
             color: #adadad;
+            font-family: "Klein Web 55 Regular";
           }
         }
       }//newletterText
@@ -177,6 +334,7 @@
             border-left: none;
             border-right: none;
             border-bottom: solid 1px #adadad;
+            font-family: "Klein Web 57 Regular Cond";
             background-color: #333;
             font-size: 20px;
             color: #adadad;
@@ -192,6 +350,7 @@
             border: none;
             font-size: 20px;
             color: #adadad;
+            font-family: "Klein Web 57 Regular Cond";
           }//button
         }//fieldset
       }//form
@@ -229,6 +388,7 @@
           color: #adadad; 
           line-height: 18px; 
           font-size: 15px;
+          font-family: "Klein Web 55 Regular";
         }
 
 

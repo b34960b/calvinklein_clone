@@ -4,33 +4,37 @@
 /* common.css */
 #promotion { width: 100%; height: 51px; background-color: #000; }
 
-#promotion .prompSlide { width: 100%; height: 100%; }
+#promotion .promoSlide { width: 100%; height: 100%; }
 
-#promotion .prompSlide .promoSlide-01 { width: 100%; height: 100%; }
+#promotion .promoSlide .promoSlide-01 { width: 100%; height: 100%; }
 
-#promotion .prompSlide .promoSlide-01 p { color: #fff; font-weight: bold; text-align: center; line-height: 51px; font-size: 15px; }
+#promotion .promoSlide .promoSlide-02 { width: 100%; height: 100%; }
 
-#headBox { position: fixed; z-index: 1; width: 100%; height: 70px; background-color: #fff; }
+#promotion .promoSlide p { color: #fff; font-weight: bold; text-align: center; line-height: 51px; font-size: 15px; letter-spacing: 0.2px; font-style: bold; font-family: "Klein Web 67 Medium Cond"; }
 
-#headBox .headerWrapper { position: relative; width: 1480px; height: 100%; padding: 17px 20px 18px 20px; box-sizing: border-box; margin: auto; }
+#headBox { position: relative; width: 100%; height: 70px; background-color: #fff; }
+
+#headBox.action { position: fixed; top: 0; }
+
+#headBox .headerWrapper { position: relative; width: auto; height: 100%; padding: 17px 20px 18px 20px; box-sizing: border-box; margin: 0 90px; }
 
 #headBox .headerWrapper h1 { float: left; width: 191px; height: 50%; }
 
 #headBox .headerWrapper h1 a { display: block; width: 100%; height: auto; }
 
-#headBox .headerWrapper h1 a img { width: 101%; height: auto; }
+#headBox .headerWrapper h1 a img { width: 100%; height: auto; }
 
-#headBox .headerWrapper nav { position: absolute; left: 50%; top: 50%; transform: translate(-50%, -50%); width: 800px; height: 21px; background-color: #fff; }
+#headBox .headerWrapper nav { position: absolute; left: 50%; top: 50%; transform: translate(-50%, -50%); width: 600px; height: 21px; background-color: #fff; }
 
 #headBox .headerWrapper nav ul { width: 100%; height: 100%; }
 
-#headBox .headerWrapper nav ul li { float: left; width: 53px; height: 100%; margin-left: 13px; }
+#headBox .headerWrapper nav ul li { float: left; margin-left: 32px; font-size: 13px; color: #404040; text-align: center; font-family: "Klein Web 67 Medium Cond"; line-height: 25px; }
 
-#headBox .headerWrapper nav ul li:first-child { margin-left: 130px; }
+#headBox .headerWrapper nav ul li:first-child { margin-left: 30px; color: #ff0000; }
 
-#headBox .headerWrapper nav ul li a { display: block; font-size: 13px; color: #404040; text-align: center; line-height: 30px; font-weight: 500; width: 100%; height: 100%; }
+#headBox .headerWrapper nav ul li a { display: block; width: 100%; height: 100%; color: inherit; }
 
-#headBox .headerWrapper .headerIcon { position: absolute; top: 0; right: 0; width: 400px; height: 100%; }
+#headBox .headerWrapper .headerIcon { float: right; width: 400px; height: 100%; }
 
 #headBox .headerWrapper .headerIcon ul { width: 100%; height: 100%; }
 
@@ -40,7 +44,47 @@
 
 #headBox .headerWrapper .headerIcon ul li a { display: block; font-size: 12px; color: #404040; width: 100%; height: 100%; }
 
-#container { width: 100%; height: 300vw; background-color: #8aa; }
+#mainBox { width: 100%; height: 40vw; }
+
+#mainBox .mainImg { float: left; width: 65%; height: 100%; }
+
+#mainBox .mainImg img { width: 100%; }
+
+#mainBox .mainText { float: left; width: 35%; height: 100%; }
+
+#mainBox .mainText .textWrapper { width: 90%; height: 80%; margin-left: 7.6%; margin-top: 5.8%; text-align: center; }
+
+#mainBox .mainText .textWrapper img { margin-top: 20%; width: 33.3%; height: auto; margin-bottom: 5.5%; }
+
+#mainBox .mainText .textWrapper p { font-size: 48px; text-transform: uppercase; font-family: "Klein Web 55 Regular"; font-weight: 700; color: #8b1013; }
+
+#mainBox .mainText .textWrapper p:nth-child(3) { color: #000; font-size: 47px; margin-top: -14px; margin-bottom: 4.5px; }
+
+#mainBox .mainText .textWrapper p:nth-child(4) { font-family: "Klein Web 65 Medium"; font-size: 17px; font-weight: normal; color: #000; }
+
+#mainBox .mainText .textWrapper .btn { margin: auto; margin-top: 30px; width: 423px; height: 58px; }
+
+#mainBox .mainText .textWrapper .btn .left { float: left; width: 200px; height: 100%; margin-right: 23px; border: 1px solid #000; box-sizing: border-box; cursor: pointer; color: #000; }
+
+#mainBox .mainText .textWrapper .btn .right { float: right; width: 200px; height: 100%; border: 1px solid #000; box-sizing: border-box; cursor: pointer; color: #000; }
+
+#mainBox .mainText .textWrapper .btn a { display: block; font-family: "Klein Web 55 Regular"; font-size: 18px; line-height: 58px; }
+
+#container { width: 100%; height: 248.8vw; }
+
+#container .block { width: 100%; height: 15%; }
+
+#container .block .prodWrapper { max-width: 1580px; height: 632px; margin: auto; margin-bottom: 50px; padding: 0 50px; box-sizing: border-box; background-color: #f29; }
+
+#container .block .prodWrapper .prodBN-left { float: left; width: 710px; height: 632px; margin-left: 20px; margin-right: 20px; background-color: #8a9; }
+
+#container .block .prodWrapper .prodBN-right { float: left; width: 710px; height: 632px; margin-right: 20px; background-color: #890; }
+
+#container .collectionBox { width: 100%; height: 33.5%; background-color: #df8; }
+
+#container .bannerBox { width: 100%; height: 13.9%; background-color: #d28; }
+
+#container .offBox { width: 100%; height: 18%; background-color: #dd8; }
 
 #footBox { width: 100%; height: 1300px; }
 
@@ -52,19 +96,19 @@
 
 #footBox .footerNewletter .newletterWrapper .newletterText .l-text { float: left; width: 378px; height: 100%; }
 
-#footBox .footerNewletter .newletterWrapper .newletterText .l-text p { font-size: 30px; color: #fff; text-align: center; }
+#footBox .footerNewletter .newletterWrapper .newletterText .l-text p { font-size: 30px; color: #fff; text-align: center; font-family: "Klein Web 67 Medium Cond"; }
 
 #footBox .footerNewletter .newletterWrapper .newletterText .r-text { float: right; width: 378px; height: 100%; line-height: 22px; }
 
-#footBox .footerNewletter .newletterWrapper .newletterText .r-text p { font-size: 16px; color: #adadad; }
+#footBox .footerNewletter .newletterWrapper .newletterText .r-text p { font-size: 16px; color: #adadad; font-family: "Klein Web 55 Regular"; }
 
 #footBox .footerNewletter .newletterWrapper form { position: relative; margin-top: 2px; width: 100%; height: 48px; padding: 17px 0; }
 
 #footBox .footerNewletter .newletterWrapper form fieldset { width: 100%; height: 100%; }
 
-#footBox .footerNewletter .newletterWrapper form fieldset #useEmail { width: 100%; height: 48px; border-top: none; border-left: none; border-right: none; border-bottom: solid 1px #adadad; background-color: #333; font-size: 20px; color: #adadad; }
+#footBox .footerNewletter .newletterWrapper form fieldset #useEmail { width: 100%; height: 48px; border-top: none; border-left: none; border-right: none; border-bottom: solid 1px #adadad; font-family: "Klein Web 57 Regular Cond"; background-color: #333; font-size: 20px; color: #adadad; }
 
-#footBox .footerNewletter .newletterWrapper form fieldset button { position: absolute; width: auto; height: 40px; top: 22px; right: -5px; border: none; font-size: 20px; color: #adadad; }
+#footBox .footerNewletter .newletterWrapper form fieldset button { position: absolute; width: auto; height: 40px; top: 22px; right: -5px; border: none; font-size: 20px; color: #adadad; font-family: "Klein Web 57 Regular Cond"; }
 
 #footBox .footerNewletter .newletterWrapper .subscribe { position: relative; margin-top: 15px; width: 100%; height: auto; }
 
@@ -74,7 +118,7 @@
 
 #footBox .footerNewletter .newletterWrapper .subscribe input[type="checkbox"]:checked + label { background: url(../../../../image/checkbox_v2.png) #fa3062 no-repeat center/10px 10px; }
 
-#footBox .footerNewletter .newletterWrapper .subscribe input[type="checkbox"] + label span { position: absolute; left: 25px; display: block; color: #adadad; line-height: 18px; font-size: 15px; }
+#footBox .footerNewletter .newletterWrapper .subscribe input[type="checkbox"] + label span { position: absolute; left: 25px; display: block; color: #adadad; line-height: 18px; font-size: 15px; font-family: "Klein Web 55 Regular"; }
 
 #footBox .footerPrivacy { width: 100%; height: 277px; background-color: #77a; }
 

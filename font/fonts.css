@@ -1,0 +1,26 @@
+/*!
+* Calvin Klein (CK) Fonts
+* under SPEcommerce
+*/
+
+/* klein Web 45 Light -----------------------*/
+@font-face{font-family:"Klein Web 45 Light";src:url("Klein-45Light-Web.eot");src:url("Klein-45Light-Web.eot?#iefix") format("embedded-opentype"),url("Klein-45Light-Web.woff2") format("woff2"),url("Klein-45Light-Web.woff") format("woff");font-weight:300;font-style:normal}
+@font-face{font-family:"Klein Web 45 Light";src:url("Klein-46LightItalic-Web.eot");src:url("Klein-46LightItalic-Web.eot?#iefix") format("embedded-opentype"),url("Klein-46LightItalic-Web.woff2") format("woff2"),url("Klein-46LightItalic-Web.woff") format("woff");font-weight:300;font-style:italic}
+
+/* klein Web 55 Regular -----------------------*/
+@font-face{font-family:"Klein Web 55 Regular";src:url("Klein-55Regular-Web.eot");src:url("Klein-55Regular-Web.eot?#iefix") format("embedded-opentype"),url("Klein-55Regular-Web.woff2") format("woff2"),url("Klein-55Regular-Web.woff") format("woff");font-weight:400;font-style:normal}
+@font-face{font-family:"Klein Web 55 Regular";src:url("Klein-56RegularItalic-Web.eot");src:url("Klein-56RegularItalic-Web.eot?#iefix") format("embedded-opentype"),url("Klein-56RegularItalic-Web.woff2") format("woff2"),url("Klein-56RegularItalic-Web.woff") format("woff");font-weight:400;font-style:italic}
+
+/* klein Web 57 Regular -----------------------*/
+@font-face{font-family:"Klein Web 57 Regular Cond";src:url("Klein-57RegularCondensed-Web.eot");src:url("Klein-57RegularCondensed-Web.eot?#iefix") format("embedded-opentype"),url("Klein-57RegularCondensed-Web.woff2") format("woff2"),url("Klein-57RegularCondensed-Web.woff") format("woff");font-weight:400;font-style:normal}
+
+/* klein Web 65 Medium -----------------------*/
+@font-face{font-family:"Klein Web 65 Medium";src:url("Klein-65Medium-Web.eot");src:url("Klein-65Medium-Web.eot?#iefix") format("embedded-opentype"),url("Klein-65Medium-Web.woff2") format("woff2"),url("Klein-65Medium-Web.woff") format("woff");font-weight:600;font-style:normal}
+@font-face{font-family:"Klein Web 65 Medium";src:url("Klein-66MediumItalic-Web.eot");src:url("Klein-66MediumItalic-Web.eot?#iefix") format("embedded-opentype"),url("Klein-66MediumItalic-Web.woff2") format("woff2"),url("Klein-66MediumItalic-Web.woff") format("woff");font-weight:600;font-style:italic}
+
+/* klein Web 67 Medium -----------------------*/
+@font-face{font-family:"Klein Web 67 Medium Cond";src:url("Klein-67MediumCondensed-Web.eot");src:url("Klein-67MediumCondensed-Web.eot?#iefix") format("embedded-opentype"),url("Klein-67MediumCondensed-Web.woff2") format("woff2"),url("Klein-67MediumCondensed-Web.woff") format("woff");font-weight:500;font-style:normal}
+
+/* klein Web 75 Bold -----------------------*/
+@font-face{font-family:"Klein Web 75 Bold";src:url("Klein-75Bold-Web.eot");src:url("Klein-75Bold-Web.eot?#iefix") format("embedded-opentype"),url("Klein-75Bold-Web.woff2") format("woff2"),url("Klein-75Bold-Web.woff") format("woff");font-weight:700;font-style:normal}
+@font-face{font-family:"Klein Web 75 Bold";src:url("Klein-76BoldItalic-Web.eot");src:url("Klein-76BoldItalic-Web.eot?#iefix") format("embedded-opentype"),url("Klein-76BoldItalic-Web.woff2") format("woff2"),url("Klein-76BoldItalic-Web.woff") format("woff");font-weight:700;font-style:italic}
