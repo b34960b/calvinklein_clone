@@ -177,7 +177,7 @@
         }
       }
 
-      .btn {
+      .mainBtn {
         margin: auto;
         margin-top: 30px;
         width: 423px;
@@ -217,46 +217,38 @@
 #container {
   // position: relative;
   width: 100%; 
-  height: 248.8vw; 
-  // background-color: #8aa;
+  height: 2888px; 
+  background-color: #8aa;
 
 
-  .block {
-    width: 100%;
-    height: 15%;
-
-    .prodWrapper {
-      max-width: 1580px;
-      height: 632px;
-      margin: auto;
-      margin-bottom: 50px;
-      padding: 0 50px;
-      box-sizing: border-box;
-      background-color: #f29;
-
-      .prodBN-left {
-        float: left;
-        width: 710px;
-        height: 632px;
-        margin-left: 20px;
-        margin-right: 20px;
-        background-color: #8a9;
-      }
-      .prodBN-right {
-        float: left;
-        width: 710px;
-        height: 632px;
-        margin-right: 20px;
-        background-color: #890;
-      }
-    }//prodWrapper
-  }//productBox
-
+  
   .collectionBox {
-    width: 100%;
+    max-width: 1440px;
     height: 33.5%;
+    margin: auto;
     background-color: #df8;
-  }
+
+    .gridStyle {
+      width: 100%;
+      height: 100%;
+      background-color: #7dd;
+      
+      dt {
+        margin-top: 38px;
+        font-family: "Klein Web 67 Medium Cond";
+        text-transform: uppercase;
+        font-size: 44px;
+        color: #000
+      }//dt
+
+      dd {
+        float: left;
+        width: 20%;
+        height: 40px;
+        background-color: #d00;
+      }
+    }//dl
+  }//collectionBox
 
   .bannerBox {
     width: 100%;
@@ -408,3 +400,128 @@
     background-color: #545;
   }//footerWrapper
 }//footBox
+
+// block common -------------------------------------
+.block {
+  width: 100%;
+  height: 632px;
+
+  .blockWrapper {
+    max-width: 1580px;
+    height: 632px;
+    margin: auto;
+    margin-bottom: 50px;
+    padding: 0 50px;
+    box-sizing: border-box;
+
+    .prodBN-left {
+      float: left;
+      width: 710px;
+      height: 632px;
+      margin-left: 20px;
+      margin-right: 20px;
+
+      p {
+        margin-top: 38px;
+        font-family: "Klein Web 67 Medium Cond";
+        text-transform: uppercase;
+        font-size: 44px;
+        color: #000
+      }//p
+      
+      .btn {
+        margin-top: 19px;
+        width: 461px;
+        height: 58px;
+        
+        .btnLeft {
+          float: left;
+          width: 219px;
+          height: 100%;
+          margin-right: 23px;
+          border: 1px solid #000;
+          box-sizing: border-box;
+          cursor: pointer;
+          color: #000;
+        }
+        .btnRight {
+          float: right; 
+          width: 219px;
+          height: 100%;
+          border: 1px solid #000;
+          box-sizing: border-box;
+          cursor: pointer;
+          color: #000;
+        }
+      
+        a {
+          display: block;
+          width: 100%;
+          height: 100%;
+          padding: 19px 46px;
+          box-sizing: border-box;
+          margin: auto;
+          font-family: "Klein Web 67 Medium Cond";
+          font-size: 17px;
+        }//a
+      }//btn
+    }//prodBN-left
+
+    .prodBN-right {
+      float: left;
+      width: 710px;
+      height: 632px;
+      margin-right: 20px;
+
+      p {
+        margin-top: 38px;
+        font-family: "Klein Web 67 Medium Cond";
+        text-transform: uppercase;
+        font-size: 44px;
+        color: #000
+      }//p
+      
+      .btn {
+        margin-top: 19px;
+        width: 461px;
+        height: 58px;
+        
+        .btnLeft {
+          float: left;
+          width: 219px;
+          height: 100%;
+          margin-right: 23px;
+          border: 1px solid #000;
+          box-sizing: border-box;
+          cursor: pointer;
+          color: #000;
+        }
+        .btnRight {
+          float: right; 
+          width: 219px;
+          height: 100%;
+          border: 1px solid #000;
+          box-sizing: border-box;
+          cursor: pointer;
+          color: #000;
+        }
+      
+        a {
+          display: block;
+          width: 100%;
+          height: 100%;
+          padding: 19px 46px;
+          box-sizing: border-box;
+          margin: auto;
+          font-family: "Klein Web 67 Medium Cond";
+          font-size: 17px;
+
+          &:hover {background-color: #000; color: #fff;}
+        }//a
+      }//btn
+    }//prodBN-right
+  }//prodWrapper
+}//block
+
+
+

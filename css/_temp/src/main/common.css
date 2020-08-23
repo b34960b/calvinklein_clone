@@ -59,25 +59,23 @@
 
 #mainBox .mainText .textWrapper p:nth-child(4) { font-family: "Klein Web 65 Medium"; font-size: 17px; font-weight: normal; color: #000; }
 
-#mainBox .mainText .textWrapper .btn { margin: auto; margin-top: 30px; width: 423px; height: 58px; }
+#mainBox .mainText .textWrapper .mainBtn { margin: auto; margin-top: 30px; width: 423px; height: 58px; }
 
-#mainBox .mainText .textWrapper .btn .left { float: left; width: 200px; height: 100%; margin-right: 23px; border: 1px solid #000; box-sizing: border-box; cursor: pointer; color: #000; }
+#mainBox .mainText .textWrapper .mainBtn .left { float: left; width: 200px; height: 100%; margin-right: 23px; border: 1px solid #000; box-sizing: border-box; cursor: pointer; color: #000; }
 
-#mainBox .mainText .textWrapper .btn .right { float: right; width: 200px; height: 100%; border: 1px solid #000; box-sizing: border-box; cursor: pointer; color: #000; }
+#mainBox .mainText .textWrapper .mainBtn .right { float: right; width: 200px; height: 100%; border: 1px solid #000; box-sizing: border-box; cursor: pointer; color: #000; }
 
-#mainBox .mainText .textWrapper .btn a { display: block; font-family: "Klein Web 55 Regular"; font-size: 18px; line-height: 58px; }
+#mainBox .mainText .textWrapper .mainBtn a { display: block; font-family: "Klein Web 55 Regular"; font-size: 18px; line-height: 58px; }
 
-#container { width: 100%; height: 248.8vw; }
+#container { width: 100%; height: 2888px; background-color: #8aa; }
 
-#container .block { width: 100%; height: 15%; }
+#container .collectionBox { max-width: 1440px; height: 33.5%; margin: auto; background-color: #df8; }
 
-#container .block .prodWrapper { max-width: 1580px; height: 632px; margin: auto; margin-bottom: 50px; padding: 0 50px; box-sizing: border-box; background-color: #f29; }
+#container .collectionBox .gridStyle { width: 100%; height: 100%; background-color: #7dd; }
 
-#container .block .prodWrapper .prodBN-left { float: left; width: 710px; height: 632px; margin-left: 20px; margin-right: 20px; background-color: #8a9; }
+#container .collectionBox .gridStyle dt { margin-top: 38px; font-family: "Klein Web 67 Medium Cond"; text-transform: uppercase; font-size: 44px; color: #000; }
 
-#container .block .prodWrapper .prodBN-right { float: left; width: 710px; height: 632px; margin-right: 20px; background-color: #890; }
-
-#container .collectionBox { width: 100%; height: 33.5%; background-color: #df8; }
+#container .collectionBox .gridStyle dd { float: left; width: 20%; height: 40px; background-color: #d00; }
 
 #container .bannerBox { width: 100%; height: 13.9%; background-color: #d28; }
 
@@ -120,3 +118,33 @@
 #footBox .footerPrivacy { width: 100%; height: 277px; background-color: #77a; }
 
 #footBox .footerWrapper { width: 100%; height: 673px; background-color: #545; }
+
+.block { width: 100%; height: 632px; }
+
+.block .blockWrapper { max-width: 1580px; height: 632px; margin: auto; margin-bottom: 50px; padding: 0 50px; box-sizing: border-box; }
+
+.block .blockWrapper .prodBN-left { float: left; width: 710px; height: 632px; margin-left: 20px; margin-right: 20px; }
+
+.block .blockWrapper .prodBN-left p { margin-top: 38px; font-family: "Klein Web 67 Medium Cond"; text-transform: uppercase; font-size: 44px; color: #000; }
+
+.block .blockWrapper .prodBN-left .btn { margin-top: 19px; width: 461px; height: 58px; }
+
+.block .blockWrapper .prodBN-left .btn .btnLeft { float: left; width: 219px; height: 100%; margin-right: 23px; border: 1px solid #000; box-sizing: border-box; cursor: pointer; color: #000; }
+
+.block .blockWrapper .prodBN-left .btn .btnRight { float: right; width: 219px; height: 100%; border: 1px solid #000; box-sizing: border-box; cursor: pointer; color: #000; }
+
+.block .blockWrapper .prodBN-left .btn a { display: block; width: 100%; height: 100%; padding: 19px 46px; box-sizing: border-box; margin: auto; font-family: "Klein Web 67 Medium Cond"; font-size: 17px; }
+
+.block .blockWrapper .prodBN-right { float: left; width: 710px; height: 632px; margin-right: 20px; }
+
+.block .blockWrapper .prodBN-right p { margin-top: 38px; font-family: "Klein Web 67 Medium Cond"; text-transform: uppercase; font-size: 44px; color: #000; }
+
+.block .blockWrapper .prodBN-right .btn { margin-top: 19px; width: 461px; height: 58px; }
+
+.block .blockWrapper .prodBN-right .btn .btnLeft { float: left; width: 219px; height: 100%; margin-right: 23px; border: 1px solid #000; box-sizing: border-box; cursor: pointer; color: #000; }
+
+.block .blockWrapper .prodBN-right .btn .btnRight { float: right; width: 219px; height: 100%; border: 1px solid #000; box-sizing: border-box; cursor: pointer; color: #000; }
+
+.block .blockWrapper .prodBN-right .btn a { display: block; width: 100%; height: 100%; padding: 19px 46px; box-sizing: border-box; margin: auto; font-family: "Klein Web 67 Medium Cond"; font-size: 17px; }
+
+.block .blockWrapper .prodBN-right .btn a:hover { background-color: #000; color: #fff; }
