@@ -69,17 +69,23 @@
 
 #container { width: 100%; height: 2888px; background-color: #8aa; }
 
-#container .collectionBox { max-width: 1440px; height: 33.5%; margin: auto; background-color: #df8; }
+#container .collectionBox { max-width: 1440px; height: 40%; margin: auto; background-color: #df8; }
 
 #container .collectionBox .gridStyle { width: 100%; height: 100%; background-color: #7dd; }
 
-#container .collectionBox .gridStyle dt { margin-top: 38px; font-family: "Klein Web 67 Medium Cond"; text-transform: uppercase; font-size: 44px; color: #000; }
+#container .collectionBox .gridStyle dt { margin-bottom: 45px; margin-top: 45px; font-family: "Klein Web 67 Medium Cond"; text-transform: uppercase; font-size: 44px; text-align: center; color: #000; }
 
-#container .collectionBox .gridStyle dd { float: left; width: 20%; height: 40px; background-color: #d00; }
+#container .collectionBox .gridStyle dd { float: left; width: 24%; height: 546px; margin-right: 1.333333%; background-color: #d00; }
 
-#container .bannerBox { width: 100%; height: 13.9%; background-color: #d28; }
+#container .collectionBox .gridStyle dd:last-child { margin-right: 0; }
 
-#container .offBox { width: 100%; height: 18%; background-color: #dd8; }
+#container .collectionBox .gridStyle dd img { width: 100%; height: auto; }
+
+#container .collectionBox .gridStyle dd p { margin: 21px 0; text-transform: uppercase; font-family: "Klein Web 67 Medium Cond"; font-size: 26px; color: #000; }
+
+#container .collectionBox .gridStyle dd .collectionText { width: 174px; height: 50px; border: 1px solid #000; text-align: center; }
+
+#container .collectionBox .gridStyle dd .collectionText a { display: block; width: 100%; height: 100%; padding: 13px; color: #000; box-sizing: border-box; font-family: "Klein Web 67 Medium Cond"; font-size: 17px; }
 
 #footBox { width: 100%; height: 1300px; }
 
