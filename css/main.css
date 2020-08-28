@@ -70,11 +70,11 @@
 
 #mainBox .mainText .textWrapper .mainBtn a { display: block; font-family: "Klein Web 55 Regular"; font-size: 18px; line-height: 58px; }
 
-#container { width: 100%; height: 2888px; background-color: #8aa; }
+#container { width: 100%; height: 2700px; background-color: #8aa; }
 
-#container .collectionBox { max-width: 1440px; height: 40%; margin: auto; background-color: #df8; }
+#container .collectionBox { max-width: 1440px; height: 1292px; margin: auto; }
 
-#container .collectionBox .gridStyle { width: 100%; height: 100%; background-color: #7dd; }
+#container .collectionBox .gridStyle { width: 100%; height: 50%; background-color: #7dd; }
 
 #container .collectionBox .gridStyle dt { margin-bottom: 45px; margin-top: 45px; font-family: "Klein Web 67 Medium Cond"; text-transform: uppercase; font-size: 44px; text-align: center; color: #000; }
 
@@ -89,6 +89,10 @@
 #container .collectionBox .gridStyle dd .collectionText { width: 174px; height: 50px; border: 1px solid #000; text-align: center; }
 
 #container .collectionBox .gridStyle dd .collectionText a { display: block; width: 100%; height: 100%; padding: 13px; color: #000; box-sizing: border-box; font-family: "Klein Web 67 Medium Cond"; font-size: 17px; }
+
+#container .bannerBox { width: 100%; height: 400px; background-color: #404040; }
+
+#container .offBox { width: 100%; height: 400px; background-color: #555555; }
 
 #footBox { width: 100%; height: 1300px; }
 
